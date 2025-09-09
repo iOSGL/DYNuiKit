@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = DYNuiKit;
+			productName = DYNuiKit;
 		};
 /* End PBXAggregateTarget section */
 
@@ -49,7 +50,7 @@
 		0823C4C4B1BC758BB6F87412A2607AD3 /* Pods-DYNuiKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYNuiKit_Example-Info.plist"; sourceTree = "<group>"; };
 		0ADFC409A731F5A80005B554F01B6042 /* Pods-DYNuiKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYNuiKit_Example-dummy.m"; sourceTree = "<group>"; };
 		0E6F4EA382DFCDE3A512B12D297046F5 /* nuisdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nuisdk.framework; path = DYNuiKit/Frameworks/nuisdk.framework; sourceTree = "<group>"; };
-		219AB757227EC82DA87B80913918FF68 /* Pods-DYNuiKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DYNuiKit_Example"; path = Pods_DYNuiKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		219AB757227EC82DA87B80913918FF68 /* Pods_DYNuiKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYNuiKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3938094066630FCFC420EE67DC51FCE4 /* Pods-DYNuiKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYNuiKit_Tests.modulemap"; sourceTree = "<group>"; };
 		3B0C57AE3EB06173DE6ABDF10980903B /* Pods-DYNuiKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYNuiKit_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -59,17 +60,17 @@
 		5198A94DB9F214194D213F7405D18FD9 /* Pods-DYNuiKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYNuiKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		541415AD2FB577BF70FC872D6589F518 /* Pods-DYNuiKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYNuiKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E840162A2B5408F059AE4E74B09D431 /* Pods-DYNuiKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYNuiKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5F7F3B927E01AAD4B8386758354C7313 /* Pods-DYNuiKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DYNuiKit_Tests"; path = Pods_DYNuiKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7F3B927E01AAD4B8386758354C7313 /* Pods_DYNuiKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYNuiKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		716D6075DE32E717845F1E049CC5FF41 /* Pods-DYNuiKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYNuiKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72DB72CD20C42BC5F0913B27792B73B3 /* Pods-DYNuiKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYNuiKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7D15724DCB199EB33F6DC81B9C51EBB3 /* DYNuiKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYNuiKit.release.xcconfig; sourceTree = "<group>"; };
 		7DE588C61DCB55BA7CBE2399C79CD745 /* Pods-DYNuiKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYNuiKit_Example.modulemap"; sourceTree = "<group>"; };
 		92FC39C7FF0130DD4576ED32A0A6FF84 /* Pods-DYNuiKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYNuiKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7B959FB5F05E6E0C39C1CB978D6E863 /* Pods-DYNuiKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYNuiKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CB674859E309FB56F51B1D1116EB1364 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D0D59F7EA58DE7B2D9B19422B4B2E02F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DC0FE7CEAE1C922FDA0987E0BF27059D /* DYNuiKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DYNuiKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB674859E309FB56F51B1D1116EB1364 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D0D59F7EA58DE7B2D9B19422B4B2E02F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC0FE7CEAE1C922FDA0987E0BF27059D /* DYNuiKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DYNuiKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		FB1F8A3514EB8D6CA39C3012E0F38A90 /* DYNuiKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYNuiKit.debug.xcconfig; sourceTree = "<group>"; };
 		FFF2ECCBED757A757284D4CA09C335D3 /* Pods-DYNuiKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYNuiKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,8 +136,8 @@
 		21CF3F5453EFDC078AA2966902DAD52A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				219AB757227EC82DA87B80913918FF68 /* Pods-DYNuiKit_Example */,
-				5F7F3B927E01AAD4B8386758354C7313 /* Pods-DYNuiKit_Tests */,
+				219AB757227EC82DA87B80913918FF68 /* Pods_DYNuiKit_Example.framework */,
+				5F7F3B927E01AAD4B8386758354C7313 /* Pods_DYNuiKit_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,7 +258,7 @@
 			);
 			name = "Pods-DYNuiKit_Example";
 			productName = Pods_DYNuiKit_Example;
-			productReference = 219AB757227EC82DA87B80913918FF68 /* Pods-DYNuiKit_Example */;
+			productReference = 219AB757227EC82DA87B80913918FF68 /* Pods_DYNuiKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AABE4792BBB71C7675FE5E200315B938 /* Pods-DYNuiKit_Tests */ = {
@@ -276,7 +277,7 @@
 			);
 			name = "Pods-DYNuiKit_Tests";
 			productName = Pods_DYNuiKit_Tests;
-			productReference = 5F7F3B927E01AAD4B8386758354C7313 /* Pods-DYNuiKit_Tests */;
+			productReference = 5F7F3B927E01AAD4B8386758354C7313 /* Pods_DYNuiKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -297,8 +298,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 21CF3F5453EFDC078AA2966902DAD52A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -452,8 +451,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
