@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/GL/DYNuiKit'
+  s.homepage         = 'https://github.com/iOSGL/DYNuiKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'GL' => '8703661+iOSGL@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/GL/DYNuiKit.git', :tag => s.version.to_s }
+  s.author           = { 'GL' => '1247759034@qq.com' }
+  s.source           = { :git => 'git@github.com:iOSGL/DYNuiKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
