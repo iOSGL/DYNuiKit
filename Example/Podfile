@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DYNuiKit_Example' do
+  pod 'DYNuiKit', :path => '../'
+
+  target 'DYNuiKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
