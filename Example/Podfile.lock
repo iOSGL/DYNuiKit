@@ -1,0 +1,16 @@
+PODS:
+  - DYNuiKit (0.1.0)
+
+DEPENDENCIES:
+  - DYNuiKit (from `../`)
+
+EXTERNAL SOURCES:
+  DYNuiKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DYNuiKit: 630f553e7b2a116ad6b3d1b1dada941774cfa38d
+
+PODFILE CHECKSUM: fb5114c12b745358cb1f3a83f265a883e588a9bc
+
+COCOAPODS: 1.16.2
