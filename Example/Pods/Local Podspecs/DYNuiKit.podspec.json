@@ -3,20 +3,21 @@
   "version": "0.1.0",
   "summary": "A short description of DYNuiKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/GL/DYNuiKit",
+  "homepage": "https://github.com/iOSGL/DYNuiKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "GL": "8703661+iOSGL@users.noreply.github.com"
+    "GL": "1247759034@qq.com"
   },
   "source": {
-    "git": "https://github.com/GL/DYNuiKit.git",
+    "git": "git@github.com:iOSGL/DYNuiKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
-  "source_files": "DYNuiKit/Classes/**/*"
+  "source_files": "DYNuiKit/Classes/**/*",
+  "vendored_frameworks": "DYNuiKit/Frameworks/nuisdk.framework"
 }

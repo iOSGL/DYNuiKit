@@ -176,10 +176,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DYNuiKit/DYNuiKit.framework"
+  install_framework "${PODS_ROOT}/../../DYNuiKit/Frameworks/nuisdk.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/DYNuiKit/DYNuiKit.framework"
+  install_framework "${PODS_ROOT}/../../DYNuiKit/Frameworks/nuisdk.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
